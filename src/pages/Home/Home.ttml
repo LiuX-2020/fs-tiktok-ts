@@ -1,0 +1,4 @@
+<view class="intro">本地生活小程序</view>
+<view>
+    <weather-item header-text="{{adrss}}天气" weather-list="{{result}}" bindonTapsss="btnClick"></weather-item>
+</view>

@@ -1,0 +1,4 @@
+App({
+  onShow() { },
+  onLaunch() { }
+});

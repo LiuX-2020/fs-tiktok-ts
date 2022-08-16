@@ -1,0 +1,11 @@
+{
+  "pages": [
+    "pages/Home/Home"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "本地生活",
+    "navigationBarTextStyle": "black"
+  }
+}

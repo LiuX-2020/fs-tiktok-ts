@@ -1,0 +1,16 @@
+<view class="my-custom-component">
+  <text class="header">{{ headerText }}</text>
+  <view class="content">
+    <slot></slot>
+  </view>
+  <!-- S 天气组件 -->
+  <view tt:for="{{weatherList}}" tt:key="date" class="weather-box" data-item="{{item}}" bindtap="onTap">
+    <text>{{item.date}} </text>
+    <text tt:if="{{item.text_night==item.text_day}}">{{item.text_night}} </text>
+    <text tt:else>{{item.text_day}}转{{item.text_night}} </text>
+    <text>{{item.low}}°~{{item.high}}°</text>
+    <text>风向：{{item.wind_direction}}</text>
+  </view>
+  <!-- E 天气组件 -->
+
+</view>

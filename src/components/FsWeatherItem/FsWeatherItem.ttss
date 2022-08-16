@@ -1,0 +1,17 @@
+/* 头部文字颜色 */
+.header {
+    color: green;
+  }
+  /* 天气外层盒子样式 */
+  .weather-box{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    font-size: 28rpx;
+    border-bottom: 1rpx solid #fef;
+  }
+  /* 天气外层盒子样式 */
+  .weather-box text{
+    flex:1;
+    margin: 1rpx 10rpx;
+  }
